@@ -10,6 +10,7 @@ import React from 'react';
 
 import ReactDOM from 'react-dom';
 import Demo from './FormDemo';
+import DemoMode from './FormDemoMode';
 // import Demo from './FormDemoSize';
 
-ReactDOM.render(<Demo />, document.getElementById('UXCoreDemo'));
+ReactDOM.render(<DemoMode />, document.getElementById('UXCoreDemo'));
